@@ -1,0 +1,199 @@
+body {
+    font-family: "Avenir", "Helvetica Neue", "Helvetica", "Arial", "Hiragino Sans", "ヒラギノ角ゴシック", YuGothic, "Yu Gothic", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+    font-style: normal;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.8;
+    letter-spacing: 0.08em;
+    background-color: #f4f4f4;
+    color: #444;
+    position: relative;
+}
+
+.wrapper{
+    max-width: 980px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+h1{
+    font-size: 21px;
+    font-weight: bold;
+    margin: 20px 0;
+    text-align: center;
+}
+
+label{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"]{
+    width: 200px;
+}
+
+textarea{
+    width: 400px;
+    height: 100px;
+}
+
+input[type="text"], textarea{
+    margin-bottom: 30px;
+    padding: 5px 8px;
+    border-radius: 5px;
+    background: #fff;
+}
+
+input[type="file"]{
+    display: block;
+    margin-bottom: 30px;
+    /* border: 1px solid #ced4da; */
+    font-size: 14px;
+    background-color: #fff;
+    border-radius: 3px;
+}
+
+.submit{
+    padding: 8px 25px;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #444;
+}
+
+hr{
+    margin: 30px 0;
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #cccccc;
+}
+
+article{
+    max-width: 600px;
+    margin-bottom: 30px;
+    padding: 25px 40px;
+    border-radius: 10px;
+    background: #fff;
+}
+
+.info h2{
+    display: inline-block;
+    margin-right: 10px;
+    color: #444;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.info time{
+    color: #999;
+}
+
+.info div{
+    display: inline-block;
+    float: right;
+}
+
+.info div a{
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 8px;
+    color: rgb(35, 35, 186);
+}
+
+article p{
+    color: #555;
+    margin-top: 15px;
+}
+
+article img{
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.success-message{
+    margin-bottom: 30px;
+    color: #33943C;
+    font-weight: 700;
+}
+
+.error-message{
+    margin-bottom: 30px;
+    color: #ef072d;
+    font-weight: 700;
+}
+
+.edit{
+    max-width: 400px;
+    width: 100%;
+    margin: 60px auto;
+}
+
+.edit p{
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.edit img{
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.edit-label{
+    font-weight: 700;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.edit-input{
+    padding: 10px;
+    border-radius: 3px;
+    box-sizing: border-box;
+    background: #fff;
+    display: block;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.edit-textarea{    
+    padding: 10px;
+    display: block;
+    height: 100px;
+    width: 100%;
+    border-radius: 3px;
+    box-sizing: border-box;
+    background: #fff;
+    margin-bottom: 25px;
+}
+
+.edit-cansel{
+    display: inline-block;
+    margin: 0 auto;
+    max-width: 180px;
+    width: 100%;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #444;
+    color: #444;
+    font-weight: 700;
+    margin-right: 15px;
+    padding: 8px 25px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.edit-submit{
+    display: inline-block;
+    margin: 0 auto;
+    max-width: 180px;
+    width: 100%;
+    text-align: center;
+    font-weight: 700;
+    padding: 8px 25px;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #444;
+}
