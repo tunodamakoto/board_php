@@ -27,7 +27,7 @@ try {
     $error_message[] = $e->getMessage();
 }
 
-if( !empty($_GET['message_id']) && empty($_POST['message_id']) ) {
+if(!empty($_GET['message_id']) && empty($_POST['message_id'])) {
 
 	// SQL作成
 	$stmt = $pdo->prepare("SELECT * FROM post WHERE id = :id");
@@ -84,6 +84,9 @@ if( !empty($_GET['message_id']) && empty($_POST['message_id']) ) {
         exit;
     }
 }
+
+$stmt = null;
+$pdo = null;
 ?>
 <!DOCTYPE html>
 <html lang="ja">

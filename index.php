@@ -44,7 +44,12 @@ if(!empty($_POST['submit'])) {
     // メッセージチェック
     if(empty($message)) {
         $error_message[] = 'メッセージを入力して下さい。';
-    }
+    } else {
+		// 文字数を確認
+		if( 100 < mb_strlen($message, 'UTF-8') ) {
+			$error_message[] = 'ひと言メッセージは100文字以内で入力してください。';
+		}
+	}
 
     // 書き込み
     if(empty($error_message)) {
